@@ -13,6 +13,7 @@ import numpy as np
 # visualization
 import matplotlib.pyplot as plt
 import os
+from scipy.special import expit
 
 def load_data():
     with open('Data/train-labels.idx1-ubyte', 'rb') as labels:
@@ -55,3 +56,23 @@ def enc_one_hot(y, num_labels=10):
 # print(y)
 # print()
 # print(z)
+
+def sigmoid(z):
+    # return (1/(1 + np.exp(-z))) # this can blow up 
+    return expit(z) # so we better use scipy's expit
+    
+def visualize_sigmoid():
+    x = np.arange(-10, 10, 0.1)
+    y = sigmoid(x)
+    fig, ax = plt.subplots()
+    ax.plot(x, y)
+    plt.show()
+    
+"""
+You will see 
+x between -10 and 10
+sigmoid gives 0 for really small negative values
+and 1 for really large positive values
+"""    
+visualize_sigmoid()
+    
