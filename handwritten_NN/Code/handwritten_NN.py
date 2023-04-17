@@ -1,3 +1,12 @@
+# activation function
+# gradient of the activation function
+# add bias units : to shift the data to the centroid : for better learning
+# feed forward
+# encoding the label
+# perform model learning
+# calculate the cost function
+# gradient with respect to the weights
+
 # between binary data and python data types
 import struct 
 import numpy as np
@@ -29,6 +38,20 @@ def visualize_data(img_array, label_array):
         ax[i].imshow(img, cmap='Greys', interpolation='nearest')
     plt.show()
     
-train_x, train_y, test_x, test_y = load_data()
+# train_x, train_y, test_x, test_y = load_data()
 
-visualize_data(train_x, train_y)
+# visualize_data(train_x, train_y)
+
+# column vector representation: Dog [0, 1], Cat [1, 0]
+def enc_one_hot(y, num_labels=10):
+    one_hot = np.zeros((num_labels, y.shape[0])) # col : each training example
+    for i, val in enumerate(y):
+        one_hot[val, i] = 1.0
+    return one_hot
+
+# y = np.array([4, 5, 9, 0])
+# z = enc_one_hot(y)
+
+# print(y)
+# print()
+# print(z)
