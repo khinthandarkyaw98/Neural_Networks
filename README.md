@@ -1,2 +1,1 @@
-This is all about Neural_Networks Practice by Coral.
-
+This statement acknowledges that the code written in the Neural_Networks repository was created while watching hands-on YouTube videos, and gives credit to the original authors of the code. 
