@@ -19,3 +19,6 @@ git merge test          # merge the changes from the "test" branch into the "mai
 git push origin main    # push the merged changes to the remote "main" branch
 
     """
+    
+    """https://github.com/philtabor/Simple-Neural-Network/blob/master/nn2.py
+    """
