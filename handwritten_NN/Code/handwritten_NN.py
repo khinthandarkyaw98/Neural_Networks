@@ -24,7 +24,7 @@ def visualize_data(img_array, label_array):
     fig, ax = plt.subplots(nrows=8, ncols=8, sharex=True, sharey=True)
     ax = ax.flatten()
     for i in range(64):
-        # we will print out number 9
+        # we will print out number 7
         img = img_array[label_array==7][i].reshape(28, 28)
         ax[i].imshow(img, cmap='Greys', interpolation='nearest')
     plt.show()
