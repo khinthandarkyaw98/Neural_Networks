@@ -1,3 +1,12 @@
+"""
+input transformed to vector : for matrix multplication, activation, etc
+input multiplied by weights : to learn complex relationships between input and outputs
+add bias to the multiplaction of input by weights : do want a solution go throgh the orign, e.g. we want some y-intercepts, better fit the data
+activation function : we want to either repress or amplify the signal achieved  
+cost function : difference between the predicted value from the model and the actual ground truth value
+cost function vs parameters graph : we wanna minimize the cost value from the local minima all the way up to the global minima
+learning rate : from local minima to global minma will be determined by the learning rate
+"""
 # activation function
 # gradient of the activation function
 # add bias units : to shift the data to the centroid : for better learning
@@ -74,5 +83,28 @@ x between -10 and 10
 sigmoid gives 0 for really small negative values
 and 1 for really large positive values
 """    
-visualize_sigmoid()
+# visualize_sigmoid()
+
+"""
+    sigmoid(z) = 1 / (1 + e^-z)
+           = (e^z / (e^z + 1))          [multiplying numerator and denominator by e^z]
+sigmoid'(z) = d/dz (e^z / (e^z + 1))
+             = (d/dz e^z * (e^z + 1) - e^z * d/dz (e^z + 1)) / (e^z + 1)^2  [quotient rule]
+             = (e^z * (e^z + 1) - e^z * e^z) / (e^z + 1)^2                   [using the chain rule to find d/dz (e^z + 1)]
+             = e^z / (e^z + 1)^2
+             = sigmoid(z) * (1 - sigmoid(z))
+"""
+def sigmoid_gradient(z):
+    s = sigmoid(z)
+    return s * (1 - s)
+
+"""
+the model does not always provides the correct prediction
+bc initally we randomize the parameters
+so we need to penalize the prediction
+there cost function comes in
+from which the model learns its mistakes in terms of backward propagation
+"""
+
+
     
