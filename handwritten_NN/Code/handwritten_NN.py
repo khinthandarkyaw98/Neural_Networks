@@ -146,5 +146,26 @@ def init_weights(n_features, n_hidden, n_output):
     w3 = np.random.uniform(-1.0, 1.0, size = n_output * (n_hidden + 1))
     w3 = w3.reshape(n_output, n_hidden +1)
     return w1, w2, w3
+
+"""
+x = input
+"""
+def feed_forward(x, w1, w2, w3):
+    # add bias unit to the input
+    # column within the row is just a byte of data
+    # so we need to add a column vector of ones
+    a1 = add_bias_unit(x, where='column')
+    z2 = w1.dot(a1.T) 
+    a2 = sigmoid(z2)
+    # since we transposed we have to add bias units as a row
+    a2 = add_bias_unit(a2, where='row')
+    # no need to transpose, bc we already did
+    z3 = w2.dot(a2)
+    a3 = sigmoid(z3)
+    a3 = add_bias_unit(a3, where='row')
+    z4 = w3.dot(a3)
+    a4 = sigmoid(z4)
     
+    return a1, z2, a2, z3, a3, z4, z4 
+
 
