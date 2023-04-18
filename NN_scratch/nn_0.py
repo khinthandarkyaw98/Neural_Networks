@@ -1,3 +1,7 @@
+"""
+    1 Neuron(output) with 3 inputs
+"""
+
 # every neuron has a conncetion to each neuron in previous layer
 
 # to get the desried output
