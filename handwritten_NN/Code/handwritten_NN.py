@@ -133,7 +133,8 @@ def add_bias_unit(X, where):
 """
     n_features = the initial input which is 28 x 28, flattened into column vector = 784
     n_output = 10 bc of handwritten number images from 0 to 9 for classification
-    
+    weight matrix does not have any input to the bias unit
+    the bias unit is just constant
 """
 def init_weights(n_features, n_hidden, n_output):
     # initially, weights are random numbers between -1 and 1
@@ -141,7 +142,7 @@ def init_weights(n_features, n_hidden, n_output):
     # it comes out in the wrong dimensionality, so we need to reshape it
     w1 = w1.reshape(n_hidden, n_features + 1)
     w2 = np.random.uniform(-1.0, 1.0, size = n_hidden * (n_hidden + 1))
-    w2 = w2.reshpae(n_hidden, n_hidden + 1)
+    w2 = w2.reshape(n_hidden, n_hidden + 1)
     w3 = np.random.uniform(-1.0, 1.0, size = n_output * (n_hidden + 1))
     w3 = w3.reshape(n_output, n_hidden +1)
     return w1, w2, w3

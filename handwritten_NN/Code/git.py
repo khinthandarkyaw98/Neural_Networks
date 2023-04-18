@@ -9,7 +9,8 @@ git push -u origin main
     
     # for test branch
     
-    """git checkout -b test    # creates a new branch named "test" and switches to it
+    """
+    git checkout -b test    # creates a new branch named "test" and switches to it
 ...                     # make changes to your code in the "test" branch
 git add .               # add any changes to the staging area
 git commit -m "commit message"   # commit your changes
@@ -20,5 +21,6 @@ git push origin main    # push the merged changes to the remote "main" branch
 
     """
     
-    """https://github.com/philtabor/Simple-Neural-Network/blob/master/nn2.py
+    """
+    https://github.com/philtabor/Simple-Neural-Network/blob/master/nn2.py
     """
