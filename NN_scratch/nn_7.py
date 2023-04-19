@@ -23,6 +23,8 @@ weights2 = [[0.1, -0.14, 0.5],
 biases2 = [-1, 2, -0.5]
 
 # output of Hidden Layer 1
+# we neeed to tranpose the weights
+# as the shape of weights is defined as (3 : the number of rows of input, output)
 layer1_output = np.dot(inputs, np.array(weights).T) + biases
 # output of Hidden Layer 2
 # input of the layer2 = layer1_output
