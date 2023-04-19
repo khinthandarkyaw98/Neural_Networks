@@ -1,5 +1,5 @@
 # Diclaimers # 
-For pictures used in this folder belongs to [sentdex](https://www.youtube.com/@sentdex).
+Pictures used in this folder belongs to [sentdex](https://www.youtube.com/@sentdex).
 
 ### Why do we have only one bias?
 <img width="200" alt="a single neurong with 3 inputs" src="Image/1.png">
