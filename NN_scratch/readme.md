@@ -49,6 +49,38 @@ In other words, a list of vectors is a matrix.
 
 <p align="justify">Each batch means each row of variable "batch".</p>
 
+<img width="500" alt="batch size" src="Image/23.png">
+
+<p align="justify">Increasing the size of the batch is great. However, we need to keep in mind to consider the possibility of overfitting. Batch size should be '32' or '64' or '128'.</p>
+
+### **Dot Product with Batches**
+
+<img width="500" alt="dot_product" src="Image/24.png">
+
+<img width="500" alt="dot_product" src="Image/25.png">
+
+<img width="500" alt="dot_product" src="Image/26.png">
+
+<img width="500" alt="dot_product" src="Image/27.png">
+
+### **Transpose of a matrix**
+
+<img width="500" alt="Matrix Transpose" src="Image/28.png">
+
+### **Why do we need to transpose in dot product?**
+
+<img width="500" alt="Matrix Transpose" src="Image/29.png">
+
+<img width="500" alt="Matrix Transpose" src="Image/30.png">
+
+<img width="500" alt="Matrix Transpose" src="Image/31.png">
+
+<img width="500" alt="Matrix Transpose" src="Image/32.png">
+
+<img width="500" alt="Matrix Transpose" src="Image/33.png">
+
+### **Neural Network**
+
 <img width="500" alt="NN" src="Image/0.png">
 
 <p align="justify">This is a neural network in which each nueron has its own inputs along with weights and a unique bias.</p>
@@ -78,3 +110,4 @@ In other words, a list of vectors is a matrix.
 <p align="justify">So, we have to change the values of not only weights but also biases.</p>
 
 <img width="500" alt="bias" src="Image/19.png">
+
