@@ -25,6 +25,7 @@ biases2 = [-1, 2, -0.5]
 # output of Hidden Layer 1
 layer1_output = np.dot(inputs, np.array(weights).T) + biases
 # output of Hidden Layer 2
+# input of the layer2 = layer1_output
 layer2_output = np.dot(layer1_output, np.array(weights2).T) + biases2
 
 print(f"layer2_output = {layer2_output}")
