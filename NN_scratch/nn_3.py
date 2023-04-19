@@ -25,12 +25,20 @@ output = [inputs[0] * weights1[0] + inputs[1] * weights1[1] + inputs[2] * weight
          ]
 """
 
-layer_outputs = [] # Output of current layer
-for neuron_weights, neuron_bias in zip(weights, biases): 
+"""
+So there are 3 Neurons, meaning that there are 3 outputs.
+For each output, there is a unique bias. These two must do addtiion.
+To get output, we do multiplication of inputs and weights.
+For 3 outputs, there are 3 sets of weights. 
+Each set corresponds to each neuron output.
+Each input corresponds to each weight in a set. 
+"""
+layer_outputs = [] # Output of a current layer
+for neuron_weights, neuron_bias in zip(weights, biases):
     neuron_output = 0 # Output of given neuron
     for n_input, weight in zip(inputs, neuron_weights):
         neuron_output += n_input * weight
     neuron_output += neuron_bias
-    layer_outputs.appen(neuron_output)
+    layer_outputs.append(neuron_output)
 
-print(f"output = {output}")
+print(f"output = {layer_outputs}")
