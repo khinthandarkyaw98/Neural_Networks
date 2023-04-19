@@ -18,17 +18,17 @@ So, the weight is trying to change the magnitude of the input and the bias is of
 
 ### **Let's talk about Shapes!**
 
-<img alt="1D array, vector" src="Image/6.png">
+<img width="500" alt="1D array, vector" src="Image/6.png">
 
 <p align="center">A list in python = 1D array in numpy = Vector in Mathematics</p>
 
-<img alt="2D array, Matrix" src="Image/7.png">
+<img width="500" alt="2D array, Matrix" src="Image/7.png">
 
 <p align="center">A list of list in python = 2D array in numpy = Matrix in Mathematics</p>
 
 In other words, a list of vectors is a matrix.
 
-<img alt="3D array, a list of list of lists" src="Image/8.png">
+<img width="500" alt="3D array, a list of list of lists" src="Image/8.png">
 
 <p align="center">A list of lists of lists = 3D array</p>
 
