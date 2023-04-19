@@ -42,3 +42,39 @@ In other words, a list of vectors is a matrix.
 
 <p align="justify">As seen above, the dot product of two vectors gives out the scalar value.
 </p>
+
+### **Batches**
+
+<img width="500" alt="Batches" src="Image/10.png">
+
+<p align="justify">Each batch means each row of variable "batch".</p>
+
+<img width="500" alt="NN" src="Image/0.png">
+
+<p align="justify">This is a neural network in which each nueron has its own inputs along with weights and a unique bias.</p>
+
+<img width="500" alt="Input-Output-NN" src="Image/11.png">
+
+<img width="500" alt="I/O RS" src="Image/12.png">
+
+<img width="500" alt="Comparison with line eq to NN" src="Image/13.png">
+
+<p align="justify">The formula for the output of NN is much similar to the line equation we already know.</p>
+
+<img width="500" alt="y-x" src="Image/14.png">
+
+<img width="500" alt="y-x" src="Image/15.png">
+
+<p align="justify">As you can see in above 2 figures, changing the values of weight also cause changes in output.</p>
+
+<img width="500" alt="bias" src="Image/16.png">
+
+<img width="500" alt="bias" src="Image/17.png">
+
+<p align="justify">Similarly, changing the values of bias also cause changes(shifts) in output.</p>
+
+<img width="500" alt="bias" src="Image/18.png">
+
+<p align="justify">So, we have to change the values of not only weights but also biases.</p>
+
+<img width="500" alt="bias" src="Image/19.png">
