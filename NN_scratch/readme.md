@@ -35,3 +35,10 @@ In other words, a list of vectors is a matrix.
 #### **Tensor**
 
 <p align="justify">A tensor is an object which can be represented as an array.</p>
+
+### **Dot Product**
+
+<img width="500" alt="Dot Product" src="Image/9.png">
+
+<p align="justify">As seen above, the dot product of two vectors gives out the scalar value.
+</p>
