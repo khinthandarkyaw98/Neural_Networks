@@ -199,7 +199,7 @@ In other words, a list of vectors is a matrix.
 <p align="justify">However, the outputs obtained from the exponential function can be more than value '1'. To prevent this, we need to do normalization because we want our probability between 0 and 1.<br> The normalization is simply taking the value divided by the sum of the values as shown in the following picture.</p>
 
 <div algin="center">
-    <img align="center" width="40.5%" 
+    <img align="center" width="30.5%" 
     height="300px" alt="normalization" src="Image/normalization.png">
 </div>
 
