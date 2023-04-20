@@ -114,6 +114,47 @@ In other words, a list of vectors is a matrix.
 
 <img width="500" alt="bias" src="Image/19.png">
 
+### **Why do we need more than ONE hidden layers?**
+
+<div align="center">
+    <img align="center" width=40.5% height=200px src="Image/l1.png">
+    <img align="center" width=40.5% height=200px src="Image/l2.png">
+</div>
+
+<div align="center">
+    <img align="center" width=40.5% height=200px src="Image/l3.png">
+    <img align="center" width=40.5% height=200px src="Image/l4.png">
+</div>
+
+<div align="center">
+    <img align="center" width=40.5% height=200px src="Image/l5.png">
+    <img align="center" width=40.5% height=200px src="Image/l6.png">
+</div>
+
+<div align="center">
+    <img align="center" width=40.5% height=200px src="Image/l7.png">
+    <img align="center" width=40.5% height=200px src="Image/l8.png">
+</div>
+
+<div align="center">
+    <img align="center" width=40.5% height=200px src="Image/l9.png">
+    <img align="center" width=40.5% height=200px src="Image/l10.png">
+</div>
+
+<div align="center">
+    <img align="center" width=40.5% height=200px src="Image/l11.png">
+    <img align="center" width=40.5% height=200px src="Image/l12.png">
+</div>
+
+<div align="center">
+    <img align="center" width=40.5% height=200px src="Image/l13.png">
+    <img align="center" width=40.5% height=200px src="Image/l14.png">
+</div>
+
+<div align="center">
+    <img align="center" width=40.5% height=200px src="Image/l5.png">
+</div>
+
 ### **Why do we need ACTIVATION function?**
 
 <p align="justify">Activation function is either to amplify or repress the local signal recevied from the addtition of the multiplication of inputs and weights to the bias to produce output. If activation makes us more grandualrity when we do backward propagate to calculate loss. There are lots of activation functions.<br> The most common ones are as follows.<ol><li>step function</li><li>sigmoid function</li><li>RELU(rectified linear unit) fucntion</li></ol><br>However, a neural network with the step function as an activation function cannot be found. Let's say that we want to fit the non-linear data. Only non-linear activation functions can mostly fit the given non-linear data. 
@@ -156,46 +197,8 @@ In other words, a list of vectors is a matrix.
 </div>
 
 
-### **Why do we need more than ONE hidden layers?**
 
-<div align="center">
-    <img align="center" width=40.5% height=200px src="Image/l1.png">
-    <img align="center" width=40.5% height=200px src="Image/l2.png">
-</div>
 
-<div align="center">
-    <img align="center" width=40.5% height=200px src="Image/l3.png">
-    <img align="center" width=40.5% height=200px src="Image/l4.png">
-</div>
-
-<div align="center">
-    <img align="center" width=40.5% height=200px src="Image/l5.png">
-    <img align="center" width=40.5% height=200px src="Image/l6.png">
-</div>
-
-<div align="center">
-    <img align="center" width=40.5% height=200px src="Image/l7.png">
-    <img align="center" width=40.5% height=200px src="Image/l8.png">
-</div>
-
-<div align="center">
-    <img align="center" width=40.5% height=200px src="Image/l9.png">
-    <img align="center" width=40.5% height=200px src="Image/l10.png">
-</div>
-
-<div align="center">
-    <img align="center" width=40.5% height=200px src="Image/l11.png">
-    <img align="center" width=40.5% height=200px src="Image/l12.png">
-</div>
-
-<div align="center">
-    <img align="center" width=40.5% height=200px src="Image/l13.png">
-    <img align="center" width=40.5% height=200px src="Image/l14.png">
-</div>
-
-<div align="center">
-    <img align="center" width=40.5% height=200px src="Image/l5.png">
-</div>
 
 
 
