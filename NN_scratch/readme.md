@@ -121,8 +121,21 @@ In other words, a list of vectors is a matrix.
 #### **Activation Functions**
 
 <div align="center">
-    <img align="center" width=49.5% alt="step" src="Image/step_impact.png">
-    <img align="center" width=49.5% alt="step_impact.png" src="Image/step_impact.png">
+    <p align="center">Step Functions</p>
+    <img align="center" width=40.5% height=100px alt="step" src="Image/step.png">
+    <img align="center" width=40.5% height=100px alt="step_impact.png" src="Image/step_impact.png">
+</div>
+
+<div align="center">
+    <p align="center">Sigmoid Functions</p>
+    <img align="center" width=40.5% height=100px alt="sigmoid" src="Image/sigmoid.png">
+    <img align="center" width=40.5% height=100px alt="sigmoid_impact.png" src="Image/sigmoid_impact.png">
+</div>
+
+<div align="center">
+    <p align="center">RELU(rectified linear unit) Functions</p>
+    <img align="center" width=40.5% height=100px alt="relu" src="Image/RELU.png">
+    <img align="center" width=40.5% height=100px alt="RELU_impact.png" src="Image/RELU_impact.png">
 </div>
 
 ### **Why do we need more than ONE hidden layers?**
