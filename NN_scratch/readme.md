@@ -143,3 +143,47 @@ In other words, a list of vectors is a matrix.
 </div>
 
 ### **Why do we need more than ONE hidden layers?**
+
+<div align="center">
+    <img align="center" width=40.5% height=200px src="Image/l1.png">
+    <img align="center" width=40.5% height=200px src="Image/l2.png">
+</div>
+
+<div align="center">
+    <img align="center" width=40.5% height=200px src="Image/l3.png">
+    <img align="center" width=40.5% height=200px src="Image/l4.png">
+</div>
+
+<div align="center">
+    <img align="center" width=40.5% height=200px src="Image/l5.png">
+    <img align="center" width=40.5% height=200px src="Image/l6.png">
+</div>
+
+<div align="center">
+    <img align="center" width=40.5% height=200px src="Image/l7.png">
+    <img align="center" width=40.5% height=200px src="Image/l8.png">
+</div>
+
+<div align="center">
+    <img align="center" width=40.5% height=200px src="Image/l9.png">
+    <img align="center" width=40.5% height=200px src="Image/l10.png">
+</div>
+
+<div align="center">
+    <img align="center" width=40.5% height=200px src="Image/l11.png">
+    <img align="center" width=40.5% height=200px src="Image/l12.png">
+</div>
+
+<div align="center">
+    <img align="center" width=40.5% height=200px src="Image/l13.png">
+    <img align="center" width=40.5% height=200px src="Image/l14.png">
+</div>
+
+<div align="center">
+    <img align="center" width=40.5% height=200px src="Image/l5.png">
+</div>
+
+
+
+
+
