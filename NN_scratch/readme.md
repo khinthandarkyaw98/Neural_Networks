@@ -209,14 +209,14 @@ In other words, a list of vectors is a matrix.
 
 <p align="justify">So, softmax is basically the combination of exponentialization and normalization.</p>
 
-<div algin="center">
-    <img align="center" width="30.5%" 
-    height="100px" alt="softmax1" src="Image/softmax1.png">
-    <img align="center" width="30.5%" 
-    height="100px" alt="softmax2" src="Image/softmax2.png">
-    <img align="center" width="30.5%" 
-    height="100px" alt="softmax3" src="Image/softmax3.png">
-</div>
+
+<img align="center" width="30.5%" 
+height="250px" alt="softmax1" src="Image/softmax1.png">
+<img align="center" width="30.5%" 
+height="100px" alt="softmax2" src="Image/softmax2.png">
+<img align="center" width="30.5%" 
+height="50px" alt="softmax3" src="Image/softmax3.png">
+
 
 
 
