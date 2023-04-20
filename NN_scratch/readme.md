@@ -212,8 +212,8 @@ In other words, a list of vectors is a matrix.
 
 <img align="center" width="60.5%" 
 height="500px" alt="softmax1" src="Image/softmax1.png"><br>
-<img align="center" width="30.5%" 
-height="100px" alt="softmax2" src="Image/softmax2.png"><br>
+<img align="center" width="60.5%" 
+height="200px" alt="softmax2" src="Image/softmax2.png"><br>
 <img align="center" width="20.5%" 
 height="100px" alt="softmax3" src="Image/softmax3.png">
 
