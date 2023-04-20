@@ -211,11 +211,11 @@ In other words, a list of vectors is a matrix.
 
 <div algin="center">
     <img align="center" width="30.5%" 
-    height="300px" alt="softmax1" src="Image/softmax1.png">
+    height="200px" alt="softmax1" src="Image/softmax1.png">
     <img align="center" width="30.5%" 
-    height="300px" alt="softmax2" src="Image/softmax2.png">
+    height="200px" alt="softmax2" src="Image/softmax2.png">
     <img align="center" width="30.5%" 
-    height="300px" alt="softmax3" src="Image/softmax3.png">
+    height="200px" alt="softmax3" src="Image/softmax3.png">
 </div>
 
 
