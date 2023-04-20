@@ -39,7 +39,7 @@ norm_base_test3 = [[8.395]
 """
 
 """
-Now, we now how to calculate norm_base by same row diff cols.
+Now, we know how to calculate norm_base by same row diff cols.
 """
 norm_base = np.sum(exp_values, axis=1, keepdims=True)
 norm_values = exp_values / norm_base
