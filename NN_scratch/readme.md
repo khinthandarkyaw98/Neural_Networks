@@ -200,7 +200,7 @@ In other words, a list of vectors is a matrix.
 
 <div algin="center">
     <img align="center" width="40.5%" 
-    height="100px" alt="normalization" src="Image/normalization.png">
+    height="200px" alt="normalization" src="Image/normalization.png">
 </div>
 
 
