@@ -196,12 +196,28 @@ In other words, a list of vectors is a matrix.
     height="200px" alt="exponential" src="Image/exponential.png">
 </div>
 
+### **Normalization**
+
 <p align="justify">However, the outputs obtained from the exponential function can be more than value '1'. To prevent this, we need to do normalization because we want our probability between 0 and 1.<br> The normalization is simply taking the value divided by the sum of the values as shown in the following picture.</p>
 
 <div algin="center">
     <img align="center" width="30.5%" 
     height="300px" alt="normalization" src="Image/normalization.png">
 </div>
+
+### **Softmax Function**
+
+<p align="justify">So, softmax is basically the combination of exponentialization and normalization.</p>
+
+<div algin="center">
+    <img align="center" width="30.5%" 
+    height="300px" alt="softmax1" src="Image/softmax1.png">
+    <img align="center" width="30.5%" 
+    height="300px" alt="softmax2" src="Image/softmax2.png">
+    <img align="center" width="30.5%" 
+    height="300px" alt="softmax3" src="Image/softmax3.png">
+</div>
+
 
 
 
