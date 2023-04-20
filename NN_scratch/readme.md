@@ -142,6 +142,20 @@ In other words, a list of vectors is a matrix.
     <img align="center" width=40.5% height=200px alt="RELU_impact.png" src="Image/RELU_impact.png">
 </div>
 
+### **Exponential Function**
+
+<p align="justify">However, RELU has some problems. Suppose that we have 2 outputs which have both negative values. So, we will get all zeros and our neural network cannot learn anything from it at all.</p>
+
+<em>There our exponential function comes.</em>
+
+<p align="justify">Even for the negative value, the exponentiation of that negative value will give us some positive value. Intutively, we can know that we will some different values for different negative vaules exponentialized, making our neural network learn something.</p>
+
+<div algin="center">
+    <img align="center" width="40.5%" 
+    height="200px" alt="exponential" src="Image/exponential.png">
+</div>
+
+
 ### **Why do we need more than ONE hidden layers?**
 
 <div align="center">
@@ -182,6 +196,7 @@ In other words, a list of vectors is a matrix.
 <div align="center">
     <img align="center" width=40.5% height=200px src="Image/l5.png">
 </div>
+
 
 
 
