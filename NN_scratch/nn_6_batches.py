@@ -1,5 +1,5 @@
 """
-   Batches, Layers, and Objects 
+   Batches
    
    Reasons of using batches : 
    

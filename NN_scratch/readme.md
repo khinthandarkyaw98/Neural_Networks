@@ -114,3 +114,15 @@ In other words, a list of vectors is a matrix.
 
 <img width="500" alt="bias" src="Image/19.png">
 
+### **Why do we need ACTIVATION function?**
+
+<p align="justify">Activation function is either to amplify or repress the local signal recevied from the addtition of the multiplication of inputs and weights to the bias to produce output. If activation makes us more grandualrity when we do backward propagate to calculate loss. There are lots of activation functions.<br> The most common ones are as follows.<ol><li>step function</li><li>sigmoid function</li><li>RELU(rectified linear unit) fucntion</li></ol><br>However, a neural network with the step function as an activation function cannot be found. Let's say that we want to fit the non-linear data. Only non-linear activation functions can mostly fit the given non-linear data. RELU is recommended to choose over sigmoid as the latter has the gradient vanishing problem.</p>
+
+#### **Activation Functions**
+
+<div align="center">
+    <img align="center" width=49.5% alt="step" src="Image/step_impact.png">
+    <img align="center" width=49.5% alt="step_impact.png" src="Image/step_impact.png">
+</div>
+
+### **Why do we need more than ONE hidden layers?**
