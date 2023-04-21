@@ -217,6 +217,12 @@ height="200px" alt="softmax2" src="Image/softmax2.png"><br>
 <img align="center" width="20.5%" 
 height="100px" alt="softmax3" src="Image/softmax3.png">
 
+### **Overflow Problem in Softmax**
+
+<p align="justify">However, as you can see that the python program executes e+10 for decimal points, leading to overflow errors for larger inputs. To tackle this, we have to subtract exp_values from its maxima, but this will not have any impact our resulted values.</p>
+
+<img align="center" width="60.5%" height="500px" alt="overflow" src="Image/overflow.png">
+
 
 
 
