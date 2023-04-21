@@ -48,4 +48,5 @@ activation2.forward(dense2.output)
 
 # there will be (300, 3) answers for 3 classes
 # let's print out the very first 5 rows for every columns included
-print(activation2.output[:5])
+print(activation2.output[:5, :])
+#print(activation2.output[:5]) # same as above
