@@ -207,6 +207,8 @@ In other words, a list of vectors is a matrix.
 
 ### **Softmax Function**
 
+<p align="justifty">We normally use the sofmax function at the <strong>output layer</strong> of the classifier neural network.</p>
+
 <p align="justify">So, softmax is basically the combination of exponentialization and normalization.</p>
 
 
