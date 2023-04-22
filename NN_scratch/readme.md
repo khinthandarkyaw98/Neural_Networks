@@ -225,6 +225,10 @@ height="100px" alt="softmax3" src="Image/softmax3.png">
 
 <img align="center" width="60.5%" height="500px" alt="overflow" src="Image/overflow.png">
 
+### **What does a neural network give out?**
+
+<p align="justify">The neural network does not give us classification but a probability distribution for classes to be classified.</p>
+
 
 
 
