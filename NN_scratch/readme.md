@@ -234,8 +234,8 @@ height="100px" alt="softmax3" src="Image/softmax3.png">
 <p align="justify">There are different kinds of methods to calculate loss.<br> Here in this case for using softmax as the activation function of the final output, let's use the cross entropy shwon below as the loss function.</p>
 
 <div align="center">
-<img align="center" width="60.5%" height="500px" alt="cross_entropy" src="Image/CrossEntropy.png">
-<img align="center" width="60.5%" height="500px" alt="loss" src="Image/Loss.png">
+<img align="center" width="49.5%" height="500px" alt="cross_entropy" src="Image/CrossEntropy.png">
+<img align="center" width="49.5%" height="500px" alt="loss" src="Image/Loss.png">
 </div>
 
 
