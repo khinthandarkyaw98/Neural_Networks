@@ -238,8 +238,21 @@ height="100px" alt="softmax3" src="Image/softmax3.png">
 <img align="center" width="49.5%" height="300px" alt="loss" src="Image/Loss.png">
 </div>
 
+### **Explanation of some processes in the calculation of los**
 
+<div align="center">
+<img align="center" width="49.5%" height="300px" alt="loss confidence" src="Image/loss_confidence.png">
+</div>
 
+<div align="center">
+<img align="center" width="49.5%" height="300px" alt="loss without zip" src="Image/loss_wozip.png">
+<img align="center" width="49.5%" height="300px" alt="loss with zip" src="Image/loss_zip.png">
+</div>
+
+<div align="center">
+<img align="center" width="49.5%" height="300px" alt="loss y_true1" src="Image/loss_y_true1.png">
+<img align="center" width="49.5%" height="300px" alt="loss loss y_true2" src="Image/loss_y_true2.png">
+</div>
 
 
 
