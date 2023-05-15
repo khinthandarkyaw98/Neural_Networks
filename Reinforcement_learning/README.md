@@ -4,6 +4,7 @@
 |-------------|------|
 | Gym | pip install gym |
 |  maplotlib | pip install matplotlib |
+| pyglet | pip install pyglet==1.5.27|
 
 
 | Title | Resource |
