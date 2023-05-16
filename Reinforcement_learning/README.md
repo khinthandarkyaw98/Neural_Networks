@@ -12,3 +12,5 @@
 | Title | Resource |
 |-------|----------|
 |Reinforcement Learning | [Lecture](https://www.youtube.com/playlist?list=PLQVvvaa0QuDezJFIOU5wDdfy4e9vdnx-7)|
+|Q-Leaerning-1|[Blog-post](https://pythonprogramming.net/q-learning-reinforcement-learning-python-tutorial/)|
+|Q-Learning-2|[Blog-post](https://pythonprogramming.net/q-learning-algorithm-reinforcement-learning-python-tutorial/)|
